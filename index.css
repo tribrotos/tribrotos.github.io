@@ -1,0 +1,60 @@
+body {
+  position: relative; 
+}
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px;
+}
+
+#head{
+  padding-top:100px;
+  color: #aaa;
+}
+
+#P1 {
+  padding-top:100px;
+  height:610px;
+  padding-bottom: 100px;
+  color: #fff;
+  background-color: #00bcd4;
+}
+#P2 {
+  padding-top:100px;
+  height:610;
+  padding-bottom: 100px;
+  color: #fff; 
+  background-color: #673ab7;
+
+}
+#P3 {
+  padding-top:50px;
+  height:630px;
+  padding-bottom: 0px;
+  /*color: #fff; 
+  background-color: #ff9800;*/}
+#P4 {
+  padding-top:50px;
+  height:610px;
+  padding-bottom: 100px;
+  color: #fff; 
+  background-color: #00bcd4;
+}
+
+.fsize1{font-size: 42pt;}
+.fsize2{font-size: 28pt;}
+.fsize3{font-size: 24pt;}
+.fsize4{font-size: 18pt;}
+.fsize5{font-size: 15pt;}
+
+.font1 {font-family: 'Russo One', sans-serif; color: #ffffcc;}
+.font2 {font-family: 'Orbitron', sans-serif;} 
+.font3 {font-family: 'Macondo', cursive;}
+.font4 {font-family: 'Economica', sans-serif;}
